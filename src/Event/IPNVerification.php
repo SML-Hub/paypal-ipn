@@ -3,7 +3,7 @@
 namespace PayPal\IPN\Event;
 
 use PayPal\IPN\IPNMessage;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 
 abstract class IPNVerification extends Event
 {
@@ -13,7 +13,7 @@ abstract class IPNVerification extends Event
     private $message;
 
     /**
-     * @param Message $message
+     * @param IPNMessage $message
      */
     public function __construct(IPNMessage $message)
     {
