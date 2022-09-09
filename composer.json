@@ -22,11 +22,6 @@
       "mockery/mockery": "^1.4.4",
       "phpunit/phpunit": "^9.0"
    },
-   "extra":{
-      "branch-alias":{
-         "dev-master":"3.0.x-dev"
-      }
-   },
    "autoload":{
       "psr-4":{
          "Sujip\\PayPal\\Notification\\":"src/"
