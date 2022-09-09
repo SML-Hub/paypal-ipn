@@ -68,7 +68,7 @@ class IPNMessage
     {
         $data = [];
 
-        $array = preg_split('/&/', $string, null, PREG_SPLIT_NO_EMPTY);
+        $array = preg_split('/&/', $string, -1, PREG_SPLIT_NO_EMPTY);
 
         foreach ($array as $each) {
             list($k, $v) = explode('=', $each);
