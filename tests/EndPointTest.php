@@ -15,7 +15,7 @@ class EndPointTest extends TestCase
     const SANDOBX = 'https://ipnpb.sandbox.paypal.com/cgi-bin/webscr';
     const LIVE = 'https://ipnpb.paypal.com/cgi-bin/webscr';
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->event = (new ArrayHandler([
             'foo' => 'bar',

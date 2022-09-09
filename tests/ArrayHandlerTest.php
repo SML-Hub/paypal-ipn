@@ -14,7 +14,7 @@ use Sujip\PayPal\Notification\Handler\ArrayHandler;
  */
 class ArrayHandlerTest extends TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         $this->event = (new ArrayHandler([
             'foo' => 'bar',

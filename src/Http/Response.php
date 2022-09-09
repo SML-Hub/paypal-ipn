@@ -14,7 +14,7 @@ class Response extends Psr7Response
     /**
      * The guzzle http client response.
      *
-     * @var \GuzzleHttp\Message\Response
+     * @var \GuzzleHttp\Psr7\Response
      */
     protected $response;
 

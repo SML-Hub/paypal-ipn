@@ -12,7 +12,7 @@ use Sujip\PayPal\Notification\Payload;
 class Failure extends Verification
 {
     /**
-     * @param Payplad $payload
+     * @param Payload $payload
      * @param $error
      */
     public function __construct(Payload $payload, $error = null)

@@ -3,7 +3,7 @@
 namespace Sujip\PayPal\Notification\Events;
 
 use Sujip\PayPal\Notification\Payload;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 
 /**
  * Class Verification.
