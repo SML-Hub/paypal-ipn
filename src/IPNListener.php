@@ -65,7 +65,7 @@ class IPNListener
             $event = new IPNVerificationFailure($message, $e->getMessage());
         }
 
-        $this->eventDispatcher->dispatch($eventName, $event);
+        $this->eventDispatcher->dispatch($event, $eventName);
     }
 
     /**
